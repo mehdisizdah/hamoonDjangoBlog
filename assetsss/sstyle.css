@@ -1,0 +1,8 @@
+body {
+  background-color: #aaa;
+  /* background-image:url( /static/2.png ); /*ya b surate hardcode:  /static/ ... */ */
+  background-repeat-y:no-repeat;
+  background-attachment:fixed;
+
+  color:#ffA
+}

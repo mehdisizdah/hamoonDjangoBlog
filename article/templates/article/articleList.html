@@ -1,0 +1,17 @@
+{%extends "base.html"%}
+
+{%block title%}
+RticlesList
+{%endblock%}
+
+
+
+{%block content%}
+    this is html file in templates of article app
+    <hr>
+    {%for art in article000%}
+    <h3>  <a href="{% url 'narticle:dedail'  sluggg=art.slug %}">  {{art.title}}</a>    </h3>
+    <p>    {{article.snipetttt}}   </p>
+    <h6>  <a href=" https://www.google.com/">{{art.date}}</a>  </h6>
+    {%endfor%}
+{%endblock%}
